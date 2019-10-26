@@ -25,25 +25,6 @@ html, body {
     clear: both;
 }
 
-header {
-    background-color: lightgoldenrodyellow;
-    font-size: 2rem;
-    font-family: Garamond, sans-serif;
-    border-bottom: 2px solid gold;
-    padding: 0 1rem 0 1rem;
-    overflow: auto;
-    display: flex;
-}
-
-.logoTitle {
-    float: left;
-    width: 60%;
-    display: block;
-    margin: auto;
-    font-size: 3rem;
-    font-weight: bold;
-}
-
 h1 {
     text-align: center;
 }
@@ -89,6 +70,31 @@ nav a:active {
     color: white;
 }
 
+header {
+    background-color: lightgoldenrodyellow;
+    font-size: 2rem;
+    font-family: Garamond, sans-serif;
+    border-bottom: 2px solid gold;
+    padding: 0 1rem 0 1rem;
+    overflow: auto;
+    display: flex;
+}
+
+.logoTitle {
+    float: left;
+    width: 60%;
+    display: block;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.bananaLogoHeader {
+    height: 3rem;
+    width: 3rem;
+    float: left;
+}
+
 /*----------------------------------------------------*/
 
 *:focus {
@@ -104,18 +110,14 @@ section, article {
     padding: 1px 0 1rem 0;
 }
 
-.bananaLogoHeader {
-    height: 3rem;
-    width: 3rem;
-    float: left;
-}
-
 .bananaLogo {
     height: 30%;
     width: 30%;
     display: block;
     margin: auto;
 }
+
+/*----------------------------------------------------*/
 
 .bananaRandom {
     height: 6rem;
@@ -127,9 +129,11 @@ section, article {
     position: fixed;
     bottom: 4rem;
     left: 1rem;
-    clear: both;
     color: saddlebrown;
+    clear: both;
 }
+
+/*----------------------------------------------------*/
 
 blockquote {
     font-style: italic;
